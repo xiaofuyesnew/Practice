@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 //multi-line string
 /*
 if your browser not support ES6, 

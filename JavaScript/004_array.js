@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 //arr.length;
 //arr[];
 //arr.indexOf();   return index
