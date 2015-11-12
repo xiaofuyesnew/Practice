@@ -13,13 +13,13 @@ var height = parseFloat(prompt('input height(m):'));
 var weight = parseFloat(prompt('input weight(kg):'));
 var bmi=weight/(height*height);
 if (bmi<18.5){
-	alert(bmi+"too light");
+	alert(bmi.toFixed(2)+"too light");
 }else if(bmi<25){
-	alert(bmi+"normal");
+	alert(bmi.toFixed(2)+"normal");
 }else if(bmi<28){
-	alert(bmi+"over weight");
+	alert(bmi.toFixed(2)+"over weight");
 }else if(bmi<=32){
-	alert(bmi+"fat");
+	alert(bmi.toFixed(2)+"fat");
 }else{
-	alert(bmi+"severely obese");
+	alert(bmi.toFixed(2)+"severely obese");
 }
