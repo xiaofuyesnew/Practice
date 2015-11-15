@@ -29,3 +29,13 @@ s1&s2     {2,3}
 s1|s2     {1,2,3,4}
 
 '''
+t1=(1,2,3)
+t2=(1,[2,3])
+d={'t1':t1,'t2':t2}
+print(d['t1'],d['t2'])
+'''
+s=set([t1,t2])
+print(s)
+TypeError: unhashable type: 'list'
+only t1 is right
+'''
