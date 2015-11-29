@@ -11,6 +11,15 @@
  * 			return ?;
  *     };
  * 
+ * check parameter
+ * if(typeof X!=='number'){
+ * 		throw 'not a number';
+ * }
  * 
+ * arguments.length is used to judge the number of parameters 
  * 
+ * ES6:   ...rest parameter
  */
+function sum(...rest){
+	
+}
