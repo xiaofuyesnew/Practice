@@ -1,7 +1,7 @@
 'use strict';
 //test browser support for map and set
 var m=new Map();
-var s=new Set();
+var s006=new Set();
 alert('your browser support map and set')
 /*
 Map can fast find

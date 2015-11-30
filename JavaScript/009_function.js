@@ -20,6 +20,33 @@
  * 
  * ES6:   ...rest parameter
  */
-function sum(...rest){
-	
+function sum(...rest) {
+    var cont=0;
+    if (rest===[]){
+        return 0;
+    }else{
+        for (var x of rest){
+            cont=cont+x;
+        }
+        return cont;
+    }
 }
+
+//test
+var i009, args = [];
+for (i009=1; i009<=100; i009++) {
+    args.push(i009);   //add i009 to args
+}
+if (sum() !== 0) {
+    alert('filure: sum() = ' + sum());
+} else if (sum(1) !== 1) {
+    alert('filure: sum(1) = ' + sum(1));
+} else if (sum(2, 3) !== 5) {
+    alert('filure: sum(2, 3) = ' + sum(2, 3));
+} else if (sum.apply(null, args) !== 5050) {
+    alert('filure: sum(1, 2, 3, ..., 100) = ' + sum.apply(null, args));
+} else {
+    alert('Pass!');
+}
+
+
