@@ -49,4 +49,28 @@ if (sum() !== 0) {
     alert('Pass!');
 }
 
+//area of circle
+function area_of_circle(r, pi) {
 
+    if (arguments.length<2){
+        return r*r*3.14;
+}else{
+    return r*r*pi;
+}
+
+}
+//test:
+if (area_of_circle(2) === 12.56 && area_of_circle(2, 3.1416) === 12.5664) {
+    alert('pass');
+} else {
+    alert('fail');
+}
+
+
+function max(a,b){
+    if(a>b){
+        return a;
+    }else{
+        return b;
+    }
+}
