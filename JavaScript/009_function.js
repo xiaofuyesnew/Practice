@@ -74,3 +74,8 @@ function max(a,b){
         return b;
     }
 }
+
+//global scope = window
+//use a name space
+//local scope use 'let' replace 'var' -- ES6
+//constant   use const -- ES6
