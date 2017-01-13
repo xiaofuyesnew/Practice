@@ -3,3 +3,6 @@
 .pydevproject
 .settings
 .prefs
+
+.vscode
+.vscode/*
