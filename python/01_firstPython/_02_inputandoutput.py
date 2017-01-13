@@ -9,6 +9,6 @@ print('string', 'string', 'string')
 
 print(100 + 200)
 
-name = input()
+name = input('enter:')
 
-print('hello, ', name)
+print('hello,', name)
